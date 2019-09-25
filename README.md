@@ -5,9 +5,13 @@ Definição de um padrão de estilo para escrita das mensagens do git commit e P
 
 ## Mensagens de commit
 
-- Usar modo imperativo ("Adiciona feature" e não "Adicionando feature" ou "Adicionada feature")
-- Primeira linha deve ter no máximo 72 caracteres (O commit pelo PyCharm já ajuda nisso)
-- Considere descrever com detalhes no corpo do commit
+- Na primeira linha resuma o commit em no máximo 72 caracteres (O commit pelo PyCharm já ajuda nisso);
+- Use SEMPRE o modo imperativo ("Adiciona feature" e não "Adicionando feature" ou "Adicionada feature");
+- Inicie as frases com letras maiúsculas;
+- Não termine a linha de resumo com ponto final (.);
+- Use uma linha em branco para separar a linha de resumo do corpo da mensagem;
+- Considere descrever com detalhes no corpo do commit (limitadas a 72 caracteres por linha)
+- No corpo explique "o que" e "por que" e não o "como";
 - Considere usar um emoji no início da mensagem de commit
 
 Emoji | Code | Commit Type
@@ -36,3 +40,9 @@ git commit -m ":memo: Adiciona instruções sobre commits
 > Foi criado o arquivo README.md com as instruções de
 > como fazer um bom commit"
 ``` 
+
+## Por que uma boa mensagem importa?
+### Alguns motivos:
+- Caso um bug seja introduzido, uma boa mensagem de commit facilita a identificação de onde/quando isso aconteceu;
+- Se você reverter um commit, a mensagem será Revert "mensagem original", deixando claro o que está sendo revertido;
+- Boas mensagens se tornam útias ao exibir listas de commits através de comandos como git blame, git log, git shortlog, etc.
