@@ -50,7 +50,7 @@ mudança? Aqui é o lugar para explicá-los.
 
 Outros parágrafos vêm após linhas em branco
 
- - Voc pode usar bullets também;
+ - Você pode usar bullets também;
  
  - Normalmente, um hífen ou asterisco é usado como marcador, precedido
    por um único espaço, com linhas em branco no meio
