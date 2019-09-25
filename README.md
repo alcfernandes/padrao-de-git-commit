@@ -66,3 +66,6 @@ Veja também: # 456, # 789
 - Caso um bug seja introduzido, uma boa mensagem de commit facilita a identificação de onde/quando isso aconteceu;
 - Se você reverter um commit, a mensagem será Revert "mensagem original", deixando claro o que está sendo revertido;
 - Boas mensagens se tornam útias ao exibir listas de commits através de comandos como git blame, git log, git shortlog, etc.
+
+### Referências
+https://chris.beams.io/posts/git-commit/
