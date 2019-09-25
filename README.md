@@ -10,7 +10,7 @@ Definição de um padrão de estilo para escrita das mensagens do git commit e P
 - Inicie as frases com letras maiúsculas;
 - Não termine a linha de resumo com ponto final (.);
 - Use uma linha em branco para separar a linha de resumo do corpo da mensagem;
-- Considere descrever com detalhes no corpo do commit (limitadas a 72 caracteres por linha)
+- Considere descrever com detalhes no corpo do commit (limitadas a 72 caracteres por linha);
 - No corpo explique "o que" e "por que" e não o "como";
 - Considere usar um emoji no início da mensagem de commit
 
@@ -39,6 +39,28 @@ git commit -m ":memo: Adiciona instruções sobre commits
 >
 > Foi criado o arquivo README.md com as instruções de
 > como fazer um bom commit"
+``` 
+
+### Exemplo de texto
+```bash
+Resumo das alterações com verbos no imprativo, 72 caracteres ou menos
+
+Explique o problema que esse commit está resolvendo. Concentre-se em por que você
+está fazendo essa alteração em vez de como (o código explica isso).
+Existem efeitos colaterais ou outras conseqüências não intuitivas deste
+mudança? Aqui é o lugar para explicá-los.
+
+Outros parágrafos vêm após linhas em branco
+
+ - Voc pode usar bullets também;
+ 
+ - Normalmente, um hífen ou asterisco é usado como marcador, precedido
+   por um único espaço, com linhas em branco no meio
+
+Se você usa um issue tracker, coloque referências a eles na parte inferior assim:
+
+Resolve: # 123
+Veja também: # 456, # 789
 ``` 
 
 ## Por que uma boa mensagem importa?
