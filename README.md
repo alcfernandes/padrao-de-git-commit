@@ -57,7 +57,7 @@ Outros parágrafos vêm após linhas em branco
 
 Se você usa um issue tracker, coloque referências a eles na parte inferior assim:
 
-fix: #123  close: #444
+fix: #123 
 Veja também: #456, #789
 ``` 
 
