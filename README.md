@@ -1,7 +1,5 @@
-# padrao-de-git-commit
-Definição de um padrão de estilo para escrita das mensagens do git commit e Pull Requests.
-
 # Padrão de Estilo para Mensagens Git
+Definição de um padrão de estilo para escrita das mensagens do git commit e Pull Requests.
 
 ## Mensagens de commit
 
